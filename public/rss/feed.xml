@@ -4,21 +4,21 @@
         <description><![CDATA[Giuseppe]]></description>
         <link>https://braydoncoyer.dev</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 11 Aug 2023 20:46:56 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Aug 2023 22:08:13 GMT</lastBuildDate>
         <atom:link href="https://braydoncoyer.dev/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Elixir]]></title>
+            <description><![CDATA[Elixir: A powerful Functional Programming Language]]></description>
+            <link>https://braydoncoyer.dev/blog/elixir</link>
+            <guid isPermaLink="true">https://braydoncoyer.dev/blog/elixir</guid>
+            <pubDate>Tue, 01 Aug 2023 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[REST]]></title>
             <description><![CDATA[REST architecture!]]></description>
             <link>https://braydoncoyer.dev/blog/rest</link>
             <guid isPermaLink="true">https://braydoncoyer.dev/blog/rest</guid>
             <pubDate>Sat, 01 Jul 2023 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hello, World!]]></title>
-            <description><![CDATA[The combination of Next.js and the Notion API provide a powerful solution to blogging!]]></description>
-            <link>https://braydoncoyer.dev/blog/hello-world!</link>
-            <guid isPermaLink="true">https://braydoncoyer.dev/blog/hello-world!</guid>
-            <pubDate>Sat, 25 Jun 2022 13:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

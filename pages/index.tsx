@@ -64,9 +64,6 @@ export default function Home({ recentArticles }) {
               See all articles
             </Button>
           </div>
-          <div className="mt-16">
-            <Subscribe size={SubscribeSize.LARGE} />
-          </div>
         </div>
       </div>
     </Container>

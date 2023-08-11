@@ -46,9 +46,9 @@ export default function About({ recentArticles, workTimeline }) {
         <div className="hidden md:block md:float-left">
           <Image
             className="md:mr-8"
-            src="https://res.cloudinary.com/braydoncoyer/image/upload/v1670716662/family_photo_scs57f.jpg"
+            src="https://res.cloudinary.com/dcxchmbqc/image/upload/v1691791519/rlwcvj8lifcrglhblxzn.jpg"
             placeholder="blur"
-            blurDataURL="https://res.cloudinary.com/braydoncoyer/image/upload/v1670716662/family_photo_scs57f.jpg"
+            blurDataURL="https://res.cloudinary.com/dcxchmbqc/image/upload/v1691791519/rlwcvj8lifcrglhblxzn.jpg"
             width={340}
             height={448}
             alt={'article cover'}

@@ -348,9 +348,6 @@ const ArticlePage = ({
         </div>
       </div>
       <div>
-        <div className="my-8 lg:mt-64">
-          <Subscribe size={SubscribeSize.LARGE} />
-        </div>
         <div>
           <h3 className="mb-8">Related articles</h3>
           <ArticleList articles={moreArticles} />

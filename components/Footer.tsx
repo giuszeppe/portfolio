@@ -209,9 +209,6 @@ export function Footer() {
             </div>
                   */}
           </div>
-          <div className="col-span-2 mt-8 xl:mt-0">
-            <Subscribe size={SubscribeSize.SMALL} />
-          </div>
         </div>
         <div className="flex items-center justify-between mt-12">
           <div className="flex items-center order-2 space-x-6">
