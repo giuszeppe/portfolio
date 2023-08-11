@@ -8,15 +8,15 @@ const siteMetadata = {
   siteUrl: 'https://braydoncoyer.dev',
   siteRepo: 'https://github.com/braydoncoyer/braydoncoyer.dev',
   avatarImage:
-    'https://res.cloudinary.com/braydoncoyer/image/upload/v1636553710/avatar.jpg',
+    'https://res.cloudinary.com/dcxchmbqc/image/upload/v1691792367/foto_profilo_ayt7is.jpg',
   socialBanner:
     'https://res.cloudinary.com/braydoncoyer/image/upload/v1638884997/default-social-image.png',
   email: 'mailto:braydon@coyer.net',
-  github: 'https://github.com/braydoncoyer',
-  twitter: 'https://twitter.com/BraydonCoyer',
-  twitterHandle: '@BraydonCoyer',
-  codepen: 'https://codepen.io/braydoncoyer',
-  linkedin: 'https://www.linkedin.com/in/braydon-coyer/',
+  github: 'https://github.com/giuszeppe',
+  twitter: 'https://twitter.com',
+  twitterHandle: '@twitter',
+  codepen: 'https://codepen.io',
+  linkedin: 'https://www.linkedin.com/in/giuszeppe/',
   resume: '/static/giuseppe_cv.pdf',
   snippets:
     'https://www.notion.so/9f35162787e0448094188b66304cf9f6?v=1b9c4e146edf46148fe7b1c5346cbea4',
