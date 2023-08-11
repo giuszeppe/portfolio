@@ -20,7 +20,7 @@ import { useRouter } from 'next/router';
 export default function About({ recentArticles, workTimeline }) {
   const { push } = useRouter();
   return (
-    <Container title="About Me - Braydon Coyer">
+    <Container title="About Me - Giuseppe">
       <h1>
         <span className="block text-base font-semibold tracking-wide text-center text-indigo-500 uppercase dark:text-teal-400">
           About me
@@ -30,18 +30,17 @@ export default function About({ recentArticles, workTimeline }) {
         </span>
       </h1>
       <p>
-        I’m Braydon, a developer,{' '}
-        <CustomLink href={siteMetadata.codepen}>creative coder</CustomLink>,{' '}
-        <CustomLink href={`${siteMetadata.siteUrl}/blog`}>blogger</CustomLink>{' '}
-        and self-proclaimed designer who specializes in front-end development.
-        My mission is to translate user-focussed designs into pixel-perfect
-        websites or applications that run blazing fast.
+        I'm Giuseppe, a developer. 
+        This is my journey as a developer, i hope you like it.
       </p>
       <p>
-        I’m currently working as a senior front end developer at{' '}
-        <CustomLink href="https://www.logicgate.com">LogicGate</CustomLink>{' '}
-        where I help develop an agile GRC cloud solution that combines powerful
-        functionality with intuitive design to enhance enterprise GRC programs.
+        In 2023, I embarked on an exciting journey with WhatsAPI, 
+        contributing to the creation of ProPonte, a revolutionary project. 
+        As a dedicated team member, my role was to conceive and design a 
+        groundbreaking home automation beehive. This hive went beyond the ordinary,
+        as it was equipped to monitor the environment's conditions in real time. 
+        Using advanced technology, we established a connection with Telegram to 
+        swiftly relay vital data and alert beekeepers when needed. 
       </p>
       <div>
         <div className="hidden md:block md:float-left">
@@ -56,25 +55,30 @@ export default function About({ recentArticles, workTimeline }) {
           />
         </div>
         <p>
-          Prior to LogicGate, I worked as a senior full-stack engineer at{' '}
-          <CustomLink href="https://www.cognizant.com/us/en">
-            Cognizant
-          </CustomLink>{' '}
-          where I helped architect and develop full-stack RESTful microservices,
-          train and prepare developers for delivery, and assist in leading the
-          front-end practice in a lab-based working environment.
+          In the previous year, my passion for cybersecurity led me to the <CustomLink href="https://cyberchallege.it">Cyberchallenge.IT</CustomLink>{' '}
+          initiative. 
+          This immersive experience allowed me to deepen my knowledge and skills in 
+          this dynamic field. The pinnacle of my journey was reaching the national 
+          finals of a rigorous competition held at the ICT ILO campus in Turin. 
+          This attack/defense style contest pushed my limits and expanded my 
+          understanding of cybersecurity.
         </p>
         <p>
-          Before Cognizant, I worked as a UI Developer for{' '}
-          <CustomLink href="https://www.projekt202.com">projekt202</CustomLink>{' '}
-          helping craft design systems and building reusable component libraries
-          for multi-million dollar companies.
+          In 2021, I embraced the role of a Fullstack Developer Intern at MwSpace. 
+          Beyond my official title, I embraced the role of a client liaison, 
+          ensuring their orders were met to perfection. With Laravel and React as my tools,
+           I crafted bespoke websites, ranging from captivating showcases to 
+           intricate e-commerce platforms. An admin panel for e-commerce was also 
+           born under my hands, streamlining operations.
         </p>
         <p>
-          In a past life, I was an indie mobile developer making mobile games
-          for iOS and Android, with one of my games outselling Angry Birds.
+          Another chapter in my journey unfolded with K-Kasas in the same year. 
+          My role as a Fullstack Developer meant enhancing the backend, 
+          introducing novel features, and untangling intricate codes without 
+          disrupting the software's flow. My touch was also evident in the implementation 
+          of an Observer-Observable pattern, highlighting my commitment to innovation and efficiency.
         </p>
-        <p>
+        {/*<p>
           You can find me on <a href={siteMetadata.twitter}>Twitter</a> where I
           share tech-related tidbits and build in public, or you can follow me
           on <CustomLink href={siteMetadata.github}>GitHub</CustomLink>. I often
@@ -83,14 +87,12 @@ export default function About({ recentArticles, workTimeline }) {
           and create cool things over on{' '}
           <CustomLink href={siteMetadata.codepen}>CodePen</CustomLink>. I also
           help run a mediocre{' '}
-          <CustomLink href="https://anchor.fm/florida-man">podcast</CustomLink>.
+  <CustomLink href="https://anchor.fm/florida-man">podcast</CustomLink>.
         </p>
+  */}
         <div></div>
       </div>
       <hr className="my-16 w-full border-none text-center h-10 before:content-['∿∿∿'] before:text-[#D1D5DB] before:text-2xl"></hr>
-      <div className="flex justify-center">
-        <Ad />
-      </div>
       <div className="mt-12 space-y-6">
         <h2 className="m-0 text-gray-900 dark:text-white">Work experience</h2>
         <p>Here's a brief rundown of my most recent experiences.</p>
@@ -122,35 +124,6 @@ export default function About({ recentArticles, workTimeline }) {
         <ArticleList articles={recentArticles} />
       </div>
       <hr className="my-16 w-full border-none text-center h-10 before:content-['∿∿∿'] before:text-[#D1D5DB] before:text-2xl"></hr>
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-y-8 md:gap-x-12">
-        <div className="col-span-3">
-          <h2>Interested in my gear?</h2>
-          <p>
-            I keep a list of software, applications, extensions, hardware and a
-            list of supplies I've used to set up my office for those who are
-            interested.
-          </p>
-          <Button
-            buttonType={ButtonType.PRIMARY}
-            onButtonClick={() => push('/toolbox')}
-          >
-            Check out my toolbox
-          </Button>
-        </div>
-        <div className="col-span-2">
-          <Image
-            className="rounded-3xl group-hover:opacity-75"
-            objectFit="cover"
-            src="https://res.cloudinary.com/braydoncoyer/image/upload/v1637186547/toolbox_hardware.jpg"
-            placeholder="blur"
-            blurDataURL="https://res.cloudinary.com/braydoncoyer/image/upload/v1637186547/toolbox_hardware.jpg"
-            width={260}
-            height={260}
-            layout="responsive"
-            alt={'article cover'}
-          />
-        </div>
-      </div>
     </Container>
   );
 }

@@ -43,7 +43,7 @@ export function NavMenu({}) {
           <Link href="/" passHref>
             <span className="block dark:hidden">
               <Image
-                alt="Braydon Coyer"
+                alt="Giuseppe"
                 height={38}
                 width={38}
                 src={DarkLogo}
@@ -55,7 +55,7 @@ export function NavMenu({}) {
           <Link href="/" passHref>
             <span className="hidden dark:block">
               <Image
-                alt="Braydon Coyer"
+                alt="Giuseppe"
                 height={38}
                 width={38}
                 src={LightLogo}
@@ -98,7 +98,7 @@ export function NavMenu({}) {
           <NavItem href="/about" text="About" />
           <NavItem href="/projects" text="Projects" />
           <NavItem href="/blog" text="Blog" />
-          <NavItem href="/community-wall" text="Community wall" />
+          {/*<NavItem href="/community-wall" text="Community wall" />*/}
         </nav>
 
         <div className="items-center justify-end hidden md:flex md:flex-1 lg:w-0">

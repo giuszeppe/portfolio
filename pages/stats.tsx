@@ -20,7 +20,7 @@ export default function Stats() {
   );
 
   return (
-    <Container title="Stats - Braydon Coyer">
+    <Container title="Stats - Giuseppe">
       <h1>
         <span className="block text-base font-semibold tracking-wide text-center text-indigo-500 uppercase dark:text-teal-400">
           Stats
@@ -41,9 +41,6 @@ export default function Stats() {
         <Visitors />
         <Pageviews />
         <NewsletterSubs />
-      </div>
-      <div className="flex items-center justify-center my-8">
-        <Ad />
       </div>
       <div className="grid grid-cols-4 gap-2 md:gap-6">
         <div className="col-span-4">

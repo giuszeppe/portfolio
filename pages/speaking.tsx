@@ -6,10 +6,10 @@ import siteMetadata from '@/data/siteMetadata';
 import { useState } from 'react';
 
 const biography = [
-  "Hi, I'm Braydon Coyer. I'm a Frontend Engineer at LogicGate where I work on a GRC automated platform. I live in Texas with my wife and daughter.",
-  "Hi, I'm Braydon Coyer. I'm a Frontend Engineer at LogicGate where I work on a GRC automated platform. I'm a creative developer, blogger and self-proclaimed designer. My mission is to translate user-focussed designs into pixel-perfect websites or applications that run blazing fast. I live in Texas with my wife and daughter.",
-  'Braydon Coyer is a Frontend Engineer at LogicGate where he helps build a GRC automated platform. He lives in Texas with his wife and daughter.',
-  'Braydon Coyer is a Frontend Engineer at LogicGate where he helps build a GRC automated platform. He is a creative developer, a blogger and a designer. His mission is to translate user-focussed designs into pixel-perfect websites or applications that run blazing fast. He lives in Texas with his wife and daughter.'
+  "Hi, I'm Giuseppe. I'm a Frontend Engineer at LogicGate where I work on a GRC automated platform. I live in Texas with my wife and daughter.",
+  "Hi, I'm Giuseppe. I'm a Frontend Engineer at LogicGate where I work on a GRC automated platform. I'm a creative developer, blogger and self-proclaimed designer. My mission is to translate user-focussed designs into pixel-perfect websites or applications that run blazing fast. I live in Texas with my wife and daughter.",
+  'Giuseppe is a Frontend Engineer at LogicGate where he helps build a GRC automated platform. He lives in Texas with his wife and daughter.',
+  'Giuseppe is a Frontend Engineer at LogicGate where he helps build a GRC automated platform. He is a creative developer, a blogger and a designer. His mission is to translate user-focussed designs into pixel-perfect websites or applications that run blazing fast. He lives in Texas with his wife and daughter.'
 ];
 
 const biographyLength = [
@@ -27,7 +27,7 @@ export default function Talks({ talks }) {
   }
 
   return (
-    <Container title="Talks - Braydon Coyer">
+    <Container title="Talks - Giuseppe">
       <h1>
         <span className="block text-base font-semibold tracking-wide text-center text-indigo-500 uppercase dark:text-teal-400">
           Speaking
@@ -216,7 +216,7 @@ export default function Talks({ talks }) {
           </p>
         </div>
         <Image
-          alt="Braydon Coyer"
+          alt="Giuseppe"
           height={160}
           width={160}
           src={siteMetadata.avatarImage}

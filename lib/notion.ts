@@ -47,7 +47,7 @@ export const getWorkTimelineData = async (databaseId) => {
   response.results.forEach((item: any) => {
     results.push({
       title: item.properties.Name.title[0].plain_text,
-      company: item.properties.Company.select.name,
+      company: item.properties.Company.rich_text[0].plain_text,
       description: item.properties.Description.rich_text[0].plain_text,
       duration: item.properties.Duration.rich_text[0].text.content,
       comapny_url: item.properties.CompanyUrl?.url

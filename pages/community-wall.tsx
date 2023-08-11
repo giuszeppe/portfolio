@@ -20,7 +20,7 @@ export default function CommunityWall({ session, supabase, messages }) {
   }, [session]);
 
   return (
-    <Container title="Community Wall - Braydon Coyer">
+    <Container title="Community Wall - Giuseppe">
       <h1>
         <span className="block text-base font-semibold tracking-wide text-center text-indigo-500 uppercase dark:text-teal-400">
           Leave a note
@@ -38,9 +38,6 @@ export default function CommunityWall({ session, supabase, messages }) {
         supabase={supabase}
         session={session}
       />
-      <div className="flex justify-center">
-        <Ad />
-      </div>
       <div className="mt-12">
         {entries.messages?.map((message) => (
           <div className="mt-8" key={message.id}>

@@ -191,7 +191,7 @@ export function renderBlocks(block) {
             loading="lazy"
             allowFullScreen={true}
           >
-            See the Pen <a href={value.url}>Postage from Bag End</a> by Braydon
+            See the Pen <a href={value.url}>Postage from Bag End</a> by Giuseppe
             Coyer (<a href="https://codepen.io/braydoncoyer">@braydoncoyer</a>)
             on <a href="https://codepen.io">CodePen</a>.
           </iframe>
@@ -304,9 +304,6 @@ const ArticlePage = ({
           </div>
         </article>
         {/* Left Sticky */}
-        <div className="sticky hidden w-full h-24 lg:col-start-1 lg:col-end-3 top-24 lg:block">
-          <Ad />
-        </div>
         <div className="lg:col-start-3 lg:col-end-11">
           {content.map((block) => (
             <Fragment key={block.id}>{renderBlocks(block)}</Fragment>
@@ -340,9 +337,9 @@ const ArticlePage = ({
 
         {/* Right Sticky -> Reactions on Desktop */}
         {/* Height must be applied to extend height to length of article container */}
-        <div className="sticky hidden w-full h-1 lg:col-start-11 lg:col-end-13 top-24 lg:block">
+        {/*<div className="sticky hidden w-full h-1 lg:col-start-11 lg:col-end-13 top-24 lg:block">
           <Reactions slug={slug} />
-        </div>
+          </div>*/}
         <div className="col-span-12">
           <div className="mt-16 font-bold text-center">
             <p className="text-base">Share this article</p>

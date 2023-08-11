@@ -10,16 +10,6 @@ const navigation = {
     { name: 'Projects', href: '/projects' },
     { name: 'Blog', href: '/blog' }
   ],
-  specifics: [
-    { name: 'Stats', href: '/stats' },
-    { name: 'Community wall', href: '/community-wall' },
-    { name: 'Toolbox', href: '/toolbox' },
-    { name: 'Speaking', href: '/speaking' }
-  ],
-  extra: [
-    { name: 'Changelog', href: '/changelog' },
-    { name: 'Meet up', href: '/meetup' }
-  ],
   social: [
     {
       name: 'Twitter',
@@ -157,6 +147,7 @@ export function Footer() {
                   ))}
                 </div>
               </div>
+              {/*
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold tracking-wider uppercase">
                   Specifics
@@ -176,7 +167,9 @@ export function Footer() {
                   ))}
                 </div>
               </div>
+                  */}
             </div>
+            {/*
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold tracking-wider uppercase">
@@ -214,6 +207,7 @@ export function Footer() {
                 </div>
               </div>
             </div>
+                  */}
           </div>
           <div className="col-span-2 mt-8 xl:mt-0">
             <Subscribe size={SubscribeSize.SMALL} />

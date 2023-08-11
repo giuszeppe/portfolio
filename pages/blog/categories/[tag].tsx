@@ -15,7 +15,7 @@ import slugify from 'slugify';
 
 export default function Blog({ featuredArticle, articles, tags, tag }) {
   return (
-    <Container title="Blog - Braydon Coyer">
+    <Container title="Blog - Giuseppe">
       <h1>
         <span className="block text-base font-semibold tracking-wide text-center text-indigo-500 uppercase dark:text-teal-400">
           My Blog

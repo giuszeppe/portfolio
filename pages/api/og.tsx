@@ -251,7 +251,7 @@ export default async function handler(req: NextRequest) {
                         alt="profile picture"
                       />
                       <div tw="flex flex-col">
-                        <h1 tw="m-0 text-2xl">Braydon Coyer</h1>
+                        <h1 tw="m-0 text-2xl">Giuseppe</h1>
                         <h2 tw="m-0" style={{ fontFamily: 'Inter-Medium' }}>
                           braydoncoyer.dev
                         </h2>

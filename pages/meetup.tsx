@@ -9,7 +9,7 @@ import siteMetadata from '@/data/siteMetadata';
 
 export default function Toolbox({ meetupContent }) {
   return (
-    <Container title="Meetup - Braydon Coyer">
+    <Container title="Meetup - Giuseppe">
       <h1>
         <span className="block text-base font-semibold tracking-wide text-center text-indigo-500 uppercase dark:text-teal-400">
           Meetup
