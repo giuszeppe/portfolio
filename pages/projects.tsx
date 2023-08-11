@@ -50,9 +50,7 @@ export default function Projects() {
           <div className="grid grid-cols-1 min-h-[500px] md:grid-cols-2">
             <div className="self-end col-span-1 m-8 text-center md:text-left">
               <h2 className="mt-0">WhatsAPI</h2>
-              <p>
-                I developed a smart beehive to save bees from extinction.
-              </p>
+              <p>I developed a smart beehive to save bees from extinction.</p>
               <ButtonLink
                 text="Visit WhatsAPI"
                 href="https://whatsapi.proponte.it/statistiche.php"

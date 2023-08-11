@@ -30,17 +30,17 @@ export default function About({ recentArticles, workTimeline }) {
         </span>
       </h1>
       <p>
-        I'm Giuseppe, a developer. 
-        This is my journey as a developer, i hope you like it.
+        I'm Giuseppe, a developer. This is my journey as a developer, i hope you
+        like it.
       </p>
       <p>
-        In 2023, I embarked on an exciting journey with WhatsAPI, 
-        contributing to the creation of ProPonte, a revolutionary project. 
-        As a dedicated team member, my role was to conceive and design a 
-        groundbreaking home automation beehive. This hive went beyond the ordinary,
-        as it was equipped to monitor the environment's conditions in real time. 
-        Using advanced technology, we established a connection with Telegram to 
-        swiftly relay vital data and alert beekeepers when needed. 
+        In 2023, I embarked on an exciting journey with WhatsAPI, contributing
+        to the creation of ProPonte, a revolutionary project. As a dedicated
+        team member, my role was to conceive and design a groundbreaking home
+        automation beehive. This hive went beyond the ordinary, as it was
+        equipped to monitor the environment's conditions in real time. Using
+        advanced technology, we established a connection with Telegram to
+        swiftly relay vital data and alert beekeepers when needed.
       </p>
       <div>
         <div className="hidden md:block md:float-left">
@@ -55,28 +55,32 @@ export default function About({ recentArticles, workTimeline }) {
           />
         </div>
         <p>
-          In the previous year, my passion for cybersecurity led me to the <CustomLink href="https://cyberchallege.it">Cyberchallenge.IT</CustomLink>{' '}
-          initiative. 
-          This immersive experience allowed me to deepen my knowledge and skills in 
-          this dynamic field. The pinnacle of my journey was reaching the national 
-          finals of a rigorous competition held at the ICT ILO campus in Turin. 
-          This attack/defense style contest pushed my limits and expanded my 
-          understanding of cybersecurity.
+          In the previous year, my passion for cybersecurity led me to the{' '}
+          <CustomLink href="https://cyberchallege.it">
+            Cyberchallenge.IT
+          </CustomLink>{' '}
+          initiative. This immersive experience allowed me to deepen my
+          knowledge and skills in this dynamic field. The pinnacle of my journey
+          was reaching the national finals of a rigorous competition held at the
+          ICT ILO campus in Turin. This attack/defense style contest pushed my
+          limits and expanded my understanding of cybersecurity.
         </p>
         <p>
-          In 2021, I embraced the role of a Fullstack Developer Intern at MwSpace. 
-          Beyond my official title, I embraced the role of a client liaison, 
-          ensuring their orders were met to perfection. With Laravel and React as my tools,
-           I crafted bespoke websites, ranging from captivating showcases to 
-           intricate e-commerce platforms. An admin panel for e-commerce was also 
-           born under my hands, streamlining operations.
+          In 2021, I embraced the role of a Fullstack Developer Intern at
+          MwSpace. Beyond my official title, I embraced the role of a client
+          liaison, ensuring their orders were met to perfection. With Laravel
+          and React as my tools, I crafted bespoke websites, ranging from
+          captivating showcases to intricate e-commerce platforms. An admin
+          panel for e-commerce was also born under my hands, streamlining
+          operations.
         </p>
         <p>
-          Another chapter in my journey unfolded with K-Kasas in the same year. 
-          My role as a Fullstack Developer meant enhancing the backend, 
-          introducing novel features, and untangling intricate codes without 
-          disrupting the software's flow. My touch was also evident in the implementation 
-          of an Observer-Observable pattern, highlighting my commitment to innovation and efficiency.
+          Another chapter in my journey unfolded with K-Kasas in the same year.
+          My role as a Fullstack Developer meant enhancing the backend,
+          introducing novel features, and untangling intricate codes without
+          disrupting the software's flow. My touch was also evident in the
+          implementation of an Observer-Observable pattern, highlighting my
+          commitment to innovation and efficiency.
         </p>
         {/*<p>
           You can find me on <a href={siteMetadata.twitter}>Twitter</a> where I
