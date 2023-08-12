@@ -1,5 +1,6 @@
 /* tslint:disable */
-import { ImageResponse } from '@vercel/og';
+export {}
+/*import { ImageResponse } from '@vercel/og';
 import { NextRequest } from 'next/server';
 import siteMetadata from '@/data/siteMetadata';
 
@@ -90,3 +91,4 @@ export default async function handler(req: NextRequest) {
     });
   }
 }
+*/
